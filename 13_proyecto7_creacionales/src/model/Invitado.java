@@ -12,6 +12,6 @@ public class Invitado extends Usuario {
 	}
 	@Override
 	public void enviar() {
-		System.out.println("Enviado al usuario administrador "+nombre);
+		System.out.println("Enviado al usuario invitado "+nombre);
 	}
 }

@@ -12,7 +12,7 @@ public class Operador extends Usuario {
 	}
 	@Override
 	public void enviar() {
-		System.out.println("Enviado al usuario administrador "+nombre);
+		System.out.println("Enviado al usuario operador "+nombre);
 	}
 	//otros métodos específicos de la clase
 	public void establecerProtocolo() {
