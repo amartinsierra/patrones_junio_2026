@@ -29,4 +29,15 @@ public class EnTierra implements Estado {
 
 	}
 
+	/*public void handleCommand(String command, Controlador controlador) {
+		switch (command.toLowerCase()) {
+			case "despegar":
+				System.out.println("Despegando!");
+				controlador.setEstado(new EnVuelo());
+				break;
+			
+			default:
+				System.out.println("Comando no reconocido en estado En Tierra");
+		}
+	}*/
 }
